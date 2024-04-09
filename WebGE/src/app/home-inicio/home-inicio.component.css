@@ -1,0 +1,177 @@
+/* styles.css */
+
+.menu {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .menu-btn {
+    display: block;
+    width: 100%;
+    padding: 20px 0;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 100px;
+    
+  }
+  
+  .menu-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .menu-items li {
+    margin-bottom: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .menu-items li a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .bar {
+    margin-left: 20px; 
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .bar h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .bar p {
+    color: #555;
+  }
+  
+  
+  .tabla {
+    margin-top: 20px; 
+  }
+  
+  .tabla table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .tabla th,
+  .tabla td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .tabla th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .contenido {
+    margin-left: 310px; 
+  }
+  
+  .menu-lateral {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    width: 200px; /* O el ancho que desees para tu menú lateral */
+    height: 100vh; 
+    position: fixed; 
+  }
+  
+  .container {
+    display: grid;
+    flex-direction: row;
+    align-items: center; 
+
+    padding: 60;
+  }
+  
+  .progress-bars {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 20px;
+    width: 65%;
+    padding: 7%;
+    
+  }
+  
+  .progress-bar {
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-right: 20px;
+  }
+  
+  .progress-bar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 10px solid #333;
+  }
+  
+  .progress-bar h2 {
+    z-index: 1;
+  }
+  
+  .table-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+
+  .cerrar-sesion {
+    position: absolute;
+    bottom: 60px; /* Ajusta la distancia desde la parte inferior según sea necesario */
+    left: 0px; /* Ajusta la distancia desde el borde izquierdo según sea necesario */
+    width: calc(100% - 40px); /* Ancho igual al 100% del contenedor menos el padding izquierdo y derecho */
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    text-decoration: none;
+   
+  }
+  a{
+    color: #fff;
+    text-decoration: none;
+  }
