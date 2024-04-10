@@ -8,6 +8,7 @@ import { IngresarCodigoComponent } from './ingresar-codigo/ingresar-codigo.compo
 import { IngresarCorreoComponent } from './ingresar-correo/ingresar-correo.component';
 import { RegistroComponent } from './registro/registro.component';
 import { HomeInicioComponent } from './home-inicio/home-inicio.component';
+import { CamaraViewComponent } from './camara-view/camara-view.component';
 
 
 
@@ -19,7 +20,8 @@ import { HomeInicioComponent } from './home-inicio/home-inicio.component';
     IngresarCorreoComponent,
     RegistroComponent,
     HomeInicioComponent,
-    HomeInicioComponent
+    HomeInicioComponent,
+    CamaraViewComponent
  ],
   imports: [
     BrowserModule,

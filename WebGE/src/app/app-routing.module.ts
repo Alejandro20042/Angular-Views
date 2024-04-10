@@ -7,14 +7,17 @@ import { RegistroComponent } from './registro/registro.component';
 import { CambioContraComponent } from './cambio-contra/cambio-contra.component';
 import { IngresarCorreoComponent } from './ingresar-correo/ingresar-correo.component';
 import { HomeInicioComponent } from './home-inicio/home-inicio.component';
+import { CamaraViewComponent } from './camara-view/camara-view.component';
 
 const routes: Routes = [
   { path: 'inicio-sesion', component: InicioSesionComponent },
   { path: 'registro', component: RegistroComponent },
-  {path: 'Ingresac', component: IngresarCorreoComponent},
-  {path: 'cambiocontra', component: CambioContraComponent},
-  {path: 'home', component: HomeInicioComponent}, 
-  { path: '', redirectTo: '/inicio-sesion', pathMatch: 'full' },
+  { path: 'Ingresac', component: IngresarCorreoComponent},
+  { path: 'cambiocontra', component: CambioContraComponent},
+  { path: 'home', component: HomeInicioComponent}, 
+  { path: 'camara', component: CamaraViewComponent},
+  { path: '', redirectTo: '/inicio-sesion', pathMatch: 'full' }
+  
   
 ];
 

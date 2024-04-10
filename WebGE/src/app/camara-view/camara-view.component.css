@@ -1,0 +1,44 @@
+/* CSS */
+.camera-interface {
+    background-color: white;
+    width: 90%;
+    height: 120vh;
+    display: flex; /* Cambiar a flex */
+    flex-direction: column; /* Cambiar a column */
+    align-items: flex-end; /* Alinear a la derecha */
+    justify-content: space-evenly; /* Distribuir espacio uniformemente */
+    padding: 20px;
+  }
+  
+  .display-box {
+    width: 70%; /* Reducir el ancho aquí */
+    height: 70%; /* Reducir el alto aquí */
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+  
+  .display-box img {
+    width: 40%;
+    height: 60%;
+  }
+  
+  .button-group {
+    width: 50%; /* Ajustar el ancho aquí */
+    display: flex;
+    justify-content: space-between;
+    padding: 10%;
+  }
+  
+  .btn {
+    width: 45%;
+    padding: 1rem;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
