@@ -9,7 +9,7 @@ import { IngresarCorreoComponent } from './ingresar-correo/ingresar-correo.compo
 import { HomeInicioComponent } from './home-inicio/home-inicio.component';
 import { CamaraViewComponent } from './camara-view/camara-view.component';
 import { PerfilComponent } from './perfil/perfil.component';
-import {  GraficaComponent } from './grafica/grafica.component';
+
 
 const routes: Routes = [
   { path: 'inicio-sesion', component: InicioSesionComponent },
@@ -19,7 +19,6 @@ const routes: Routes = [
   { path: 'home', component: HomeInicioComponent}, 
   { path: 'camara', component: CamaraViewComponent},
   { path: 'perfil', component: PerfilComponent},
-  { path: 'grafica', component: GraficaComponent},
   { path: '', redirectTo: '/inicio-sesion', pathMatch: 'full' }
   
   
