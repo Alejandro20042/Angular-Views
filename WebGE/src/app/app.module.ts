@@ -10,6 +10,7 @@ import { RegistroComponent } from './registro/registro.component';
 import { HomeInicioComponent } from './home-inicio/home-inicio.component';
 import { CamaraViewComponent } from './camara-view/camara-view.component';
 import { PerfilComponent } from './perfil/perfil.component';
+import { GraficaComponent } from './grafica/grafica.component';
 
 
 
@@ -23,11 +24,15 @@ import { PerfilComponent } from './perfil/perfil.component';
     HomeInicioComponent,
     HomeInicioComponent,
     CamaraViewComponent,
-    PerfilComponent
+    PerfilComponent,
+    GraficaComponent
+    
  ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    
+
   ],
   providers: [
     provideClientHydration()

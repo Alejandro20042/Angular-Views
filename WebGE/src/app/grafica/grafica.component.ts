@@ -1,12 +1,13 @@
-import { AfterViewInit, Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import * as Highcharts from 'highcharts';
 
 @Component({
-  selector: 'app-home-inicio',
-  templateUrl: './home-inicio.component.html',
-  styleUrl: './home-inicio.component.css'
+  selector: 'app-grafica',
+  templateUrl: './grafica.component.html',
+  styleUrls: ['./grafica.component.css']
 })
-export class HomeInicioComponent   {
+export class GraficaComponent implements OnInit {
+
   constructor() { }
 
   ngOnInit(): void {
@@ -95,4 +96,4 @@ export class HomeInicioComponent   {
 
     Highcharts.chart('chartLastMonth', options);
   }
-  }
+}
