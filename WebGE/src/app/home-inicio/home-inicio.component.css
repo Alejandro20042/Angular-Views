@@ -53,14 +53,14 @@
   }
   
   .icon-text {
-    display: flex;
-    align-items: center;
-  }
-  
-  .icon-text img {
-    margin-right: 10px;
-  }
-  
+  display: flex;
+  align-items: center;
+}
+
+.icon-text img {
+  margin-right: 10px;
+}
+
   
   .tabla {
     margin-top: 20px; 
