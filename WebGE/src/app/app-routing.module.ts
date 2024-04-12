@@ -1,7 +1,6 @@
 import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
 import { InicioSesionComponent } from './inicio-sesion/inicio-sesion.component';
 import { RegistroComponent } from './registro/registro.component';
 import { CambioContraComponent } from './cambio-contra/cambio-contra.component';
@@ -9,6 +8,8 @@ import { IngresarCorreoComponent } from './ingresar-correo/ingresar-correo.compo
 import { HomeInicioComponent } from './home-inicio/home-inicio.component';
 import { CamaraViewComponent } from './camara-view/camara-view.component';
 import { PerfilComponent } from './perfil/perfil.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 
 const routes: Routes = [
@@ -28,15 +29,17 @@ const routes: Routes = [
   imports: [
     RouterModule.forRoot(routes),
     CommonModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   declarations: [
-    InicioSesionComponent,
-    // Agrega el componente de la página de registro a las declaraciones
+    
   ],
   exports: [
     RouterModule,
-    InicioSesionComponent
+    FormsModule
+    
+    
   ]
 })
 export class AppRoutingModule { }
